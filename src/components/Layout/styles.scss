@@ -1,0 +1,30 @@
+body #root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    --primary-color: #0000000c;
+
+    & .header {
+        padding: 1em 1.5em;
+        background-color: var(--primary-color);
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    & .main {
+        padding: 3em 5em;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    & .footer {
+        padding: 1em 1.5em;
+        background-color: var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
